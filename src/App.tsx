@@ -4,13 +4,18 @@ import './App.css'
 import Button from './components/Button'
 
 function App() {
+   const onClick = (test : string) => {
+    return 5;
+   }
 
-
-  return (
+  return  (
     <>
-    <Button backgroundColor='red' fontSize={30} pillShape={true} textColor='purple' padding={['5px','10px','33px','11px']} />
+      <Button>  CLICK ME<Button/>
+
     </>
   )
+         
+  
 }
 
 export default App
