@@ -1,5 +1,5 @@
 import React from 'react'
-
+type Colors= 'red' | 'blue'| 'green'
 type ButtonProps = {
          backgroundColor : string,
         fontSize: number,

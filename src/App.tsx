@@ -8,7 +8,7 @@ function App() {
 
   return (
     <>
-    <Button backgroundColor='red' fontSize={30} pillShape={false}/>
+    <Button backgroundColor='red' fontSize={30} pillShape={true}/>
     </>
   )
 }
