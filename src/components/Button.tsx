@@ -1,5 +1,4 @@
 import React from 'react'
-let url: string = 'https://www.google.com';
 
 const Button = () => {
   return (
