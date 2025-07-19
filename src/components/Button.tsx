@@ -1,19 +1,23 @@
 import React from 'react'
-type Colors= 'red' | 'blue'| 'green'
+type Color = 'red' | 'blue'| 'green'
 type ButtonProps = {
          backgroundColor : string,
+         textColor : Color,
         fontSize: number,
         pillShape: boolean,
+        padding: [number,number,number,number]
 }
 
 const Button = ({
     backgroundColor ,
     fontSize,
-    pillShape}: ButtonProps) => {
+    pillShape,
+textColor,
+padding}: ButtonProps) => {
 
   return (
     <div>
-      <button className='bg-red-500 text-white rounded px-4 py-2' >Click me</button>
+      <button >Click me</button>
     </div>
   )
 }
