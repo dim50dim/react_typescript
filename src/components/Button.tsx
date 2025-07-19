@@ -1,9 +1,17 @@
 import React from 'react'
 
-const Button = () => {
+const Button = ({
+    backgroundColor ,
+    fontSize,
+    pillShape}: {
+        backgroundColor : string,
+        fontSize: number,
+        pillShape: boolean,
+    }) => {
+
   return (
     <div>
-      <button >Click me</button>
+      <button className='bg-red-500 text-white rounded px-4 py-2' >Click me</button>
     </div>
   )
 }
