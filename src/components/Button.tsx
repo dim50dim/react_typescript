@@ -1,13 +1,15 @@
 import React from 'react'
 
+type ButtonProps = {
+         backgroundColor : string,
+        fontSize: number,
+        pillShape: boolean,
+}
+
 const Button = ({
     backgroundColor ,
     fontSize,
-    pillShape}: {
-        backgroundColor : string,
-        fontSize: number,
-        pillShape: boolean,
-    }) => {
+    pillShape}: ButtonProps) => {
 
   return (
     <div>
