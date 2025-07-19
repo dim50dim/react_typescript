@@ -1,9 +1,10 @@
 import React from 'react'
+let url: string = 'https://www.google.com';
 
 const Button = () => {
   return (
     <div>
-      <button className=''>Click me</button>
+      <button >Click me</button>
     </div>
   )
 }
